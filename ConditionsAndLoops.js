@@ -38,6 +38,7 @@ if (alarmSet == true && openDoor == true) {
 // create a conditional, if the username is "Tommy123" and the password is "12345"
 // or the username is "Timmy456" and the password is "6789", print "Admin Login Successful" to the console
 // otherwise, print "Admin Access Denied"
+
 let username = "Timmy456";
 let password = "6788";
 
@@ -48,7 +49,6 @@ if (username == "Tommy123" && password == "12345") {
 } else {
     console.log("Admin Access Denied.");
 }
-
 
 // write code that will set the value of studentClass based on studentGrade
 // studentGrade will be K-12
@@ -85,18 +85,28 @@ switch (studentClass) {
         console.log('Error');
 } 
 
-
-
-
 // write a for loop that will iterate backwards from 10 to -10
 
+for (let i = 10; i >= -10; i--) {
+    console.log(i);
+}
 
 
 // write a do/while loop that prints 1 through 50
 
+let i = 1;
+while (i <= 50) {
+    console.log(i);
+    i += 1;
+}
 
 // edit the previous do/while loop so that it prints the remainder when the loop number is divided by 4
 
+let n = 1;
+while (n <= 50) {
+    console.log(n / 4);
+    n += 1;
+}
 
 // Someone messed up the following for loop
 // fix the following infinite loop, uncomment to test
