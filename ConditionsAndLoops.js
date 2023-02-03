@@ -1,30 +1,53 @@
 // create a variable called speedLimit and another called mySpeed
 // set their values to numbers between 1 and 100
 
+let speedLimit = 80;
+let mySpeed = 80;
 
 // using a conditional, determine if mySpeed is greater than the speedLimit
 // if true, print "Slow Down! Mom is mad!" to the console
 // if mySpeed is equal to the speedLimit, print "Everyone is happy!" to the console
 // if mySpeed is less than the speedLimit, print "Speed up! Dad is mad!"
 
+if (mySpeed > speedLimit) {
+    console.log("Slow Down! Mom is Mad!");
+} else if (mySpeed < speedLimit) {
+    console.log("Speed up! Dad is mad!");
+} else {
+    console.log("Everyone is happy!");
+}
 
 // create two variables, one named alarmSet, the other openDoor
 // set them to a boolean value
 
+let alarmSet = true;
+let openDoor = true;
 
 // using a conditional, determine if alarm is set.
 // if alarm is set and door is set to open, print "Sound Alarm!" to the console
 // otherwise, print "Everything is fine." to the console.
 
-
+if (alarmSet == true && openDoor == true) {
+    console.log("Sound Alarm!");
+} else {
+    console.log('Everything is Fine.');
+}
 
 
 // create two variables, username and password
 // create a conditional, if the username is "Tommy123" and the password is "12345"
 // or the username is "Timmy456" and the password is "6789", print "Admin Login Successful" to the console
 // otherwise, print "Admin Access Denied"
+let userName = "Timmy456";
+let password = "6788";
 
-
+if (userName == "Tommy123" && password == "12345") {
+    console.log("Admin Login Successful");
+} else if (userName == "Timmy456" && password == "6789") {
+    console.log("Admin Login Successful");
+} else {
+    console.log("Admin Access Denied.");
+}
 
 
 // write code that will set the value of studentClass based on studentGrade
