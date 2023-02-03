@@ -110,8 +110,8 @@ while (n <= 50) {
 
 // Someone messed up the following for loop
 // fix the following infinite loop, uncomment to test
-/* 
-    for(let i = 11; i > 10; i++){
-        console.log(i);
-    } 
-*/
+
+for (let i = 11; i > 10; i++) {
+    console.log(i);
+} 
+
