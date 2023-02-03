@@ -38,12 +38,12 @@ if (alarmSet == true && openDoor == true) {
 // create a conditional, if the username is "Tommy123" and the password is "12345"
 // or the username is "Timmy456" and the password is "6789", print "Admin Login Successful" to the console
 // otherwise, print "Admin Access Denied"
-let userName = "Timmy456";
+let username = "Timmy456";
 let password = "6788";
 
-if (userName == "Tommy123" && password == "12345") {
+if (username == "Tommy123" && password == "12345") {
     console.log("Admin Login Successful");
-} else if (userName == "Timmy456" && password == "6789") {
+} else if (username == "Timmy456" && password == "6789") {
     console.log("Admin Login Successful");
 } else {
     console.log("Admin Access Denied.");
@@ -57,6 +57,33 @@ if (userName == "Tommy123" && password == "12345") {
 // 9 will be Freshman, 10 Sophomore, 11 Junior, 12 Senior
 // Anything other than these values will return "Error" to the console
 
+let studentClass = '8';
+
+switch (studentClass) {
+    case 'K-6':
+        console.log('Elementary');
+        break
+    case '7':
+        console.log('Middle');
+        break
+    case '8':
+        console.log('Middle');
+        break
+    case '9':
+        console.log('Freshman');
+        break
+    case '10':
+        console.log('Sophmore');
+        break
+    case '11':
+        console.log('Junior');
+        break
+    case '12':
+        console.log('Senior');
+        break
+    default:
+        console.log('Error');
+} 
 
 
 
