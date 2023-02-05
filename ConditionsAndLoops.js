@@ -57,28 +57,25 @@ if (username == "Tommy123" && password == "12345") {
 // 9 will be Freshman, 10 Sophomore, 11 Junior, 12 Senior
 // Anything other than these values will return "Error" to the console
 
-let studentClass = '8';
+let studentClass = 8;
 
 switch (studentClass) {
     case 'K-6':
         console.log('Elementary');
         break
-    case '7':
+    case 7 || 8:
         console.log('Middle');
         break
-    case '8':
-        console.log('Middle');
-        break
-    case '9':
+    case 9:
         console.log('Freshman');
         break
-    case '10':
+    case 10:
         console.log('Sophmore');
         break
-    case '11':
+    case 11:
         console.log('Junior');
         break
-    case '12':
+    case 12:
         console.log('Senior');
         break
     default:
@@ -104,14 +101,14 @@ while (i <= 50) {
 
 let n = 1;
 while (n <= 50) {
-    console.log(n / 4);
+    console.log(n % 4);
     n += 1;
 }
 
 // Someone messed up the following for loop
 // fix the following infinite loop, uncomment to test
-
-for (let i = 11; i > 10; i++) {
-    console.log(i);
-} 
+//
+//for (let i = 11; i > 10; i++) {
+//    console.log(i);
+//} 
 
